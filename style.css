@@ -2,8 +2,8 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 #header {
-  height: 80vh;
-  background: #ffffff url(/images/mainbg.jpg) no-repeat;
+  height: 90vh;
+  background: #ffffff url(/coffee/images/mainbg.jpg) no-repeat;
   background-size: cover;
   background-position: 30%;
 }
