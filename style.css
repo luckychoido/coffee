@@ -7,3 +7,54 @@ html {
   background-size: cover;
   background-position: 30%;
 }
+.navbar {
+  height: 7vh;
+}
+
+/* blockquote */
+
+blockquote {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 900px;
+  position: relative;
+}
+.small-box {
+  background-color: #ffe5bd;
+  width: 70%;
+  height: 170%;
+  position: absolute;
+  top: -40%;
+  left: 15%;
+  z-index: -1;
+}
+blockquote p {
+  font-family: Georgia;
+  color: #000;
+  font-size: 2.7rem;
+  font-style: italic;
+  font-weight: 300;
+}
+blockquote hr {
+  width: 30%;
+  border: 1px solid #552e17;
+}
+.highlightQuote {
+  color: #552e17;
+  font-size: 2.9rem;
+}
+
+blockquote .cite {
+  font-family: verdana;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(99, 99, 99);
+}
+
+/* small image - handfull coffee */
+.small-img {
+  position: relative;
+  bottom: -13em;
+}
