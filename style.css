@@ -11,6 +11,37 @@ html {
   height: 7vh;
 }
 
+/* Section */
+section {
+  margin: 10em 0;
+}
+
+/* section - mission */
+.signature {
+  width: 300px;
+}
+#headingGroup p {
+  font-size: 1.3em;
+}
+
+/* section - aboout */
+#about {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/coffee/images/bread-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 450px;
+}
+#about h2 {
+  color: rgb(255, 255, 255);
+  padding-top: 15%;
+  font-size: 2.3em;
+  margin-right: 20%;
+}
+#about button {
+  font-size: 1.2em;
+}
 /* blockquote */
 
 blockquote {
@@ -23,9 +54,9 @@ blockquote {
 .small-box {
   background-color: #ffe5bd;
   width: 70%;
-  height: 170%;
+  height: 130%;
   position: absolute;
-  top: -40%;
+  top: -20%;
   left: 15%;
   z-index: -1;
 }
@@ -44,7 +75,6 @@ blockquote hr {
   color: #552e17;
   font-size: 2.9rem;
 }
-
 blockquote .cite {
   font-family: verdana;
   font-size: 1.2rem;
@@ -53,8 +83,8 @@ blockquote .cite {
   color: rgb(99, 99, 99);
 }
 
-/* small image - handfull coffee */
-.small-img {
-  position: relative;
-  bottom: -13em;
+/* first image - handfull coffee */
+.fist-img {
+  width: 350px;
+  height: 500px;
 }

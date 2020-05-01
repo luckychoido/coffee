@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="/coffee/style.css" />
   </head>
   <body>
-    <section id="header">
+    <div id="header">
       <!-- Navbar -->
       <nav
         id="mainNavbar"
@@ -54,42 +54,92 @@
           </ul>
         </div>
       </nav>
-    </section>
-    <section id="about" class="container-fluid px-0">
-      <!-- first content -->
-      <div class="row align-items-center content">
-        <div class="col-md-8">
-          <div class="row justify-content-center">
-            <blockquote class="col-10 text-center">
-              <p>
-                "All you need is love but little
-                <span class="highlightQuote">coffee</span> doesn't hurt.<br>
-                 I'm sure you will love ours"
-              </p>
-              <hr>
-              <p class="cite">Essop Dicapuchino</p>
-             <div class="small-box">
+    </div>
+    <!-- mission -->
+    <section id="mission">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6">
+            <div class="row justify-content-center">
+              <div class="col-8 ml-5">
+                <div id="headingGroup" class="text-left d-none d-lg-block">
+                  <h1>WE CREATE DELICIOUS MEMORIES FOR YOU</h1>
+                  <p class="lead pt-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Adipisci, eos. Nobis pariatur dolorem fugit nemo
+                    reprehenderit! Aliquid maxime neque porro.
+                  </p>
+                  <p class="lead">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Voluptatem ducimus, laudantium ratione suscipit id vel
+                    culpa, aspernatur nesciunt ut quasi enim quibusdam animi.
+                    Minima odio dolores asperiores qui dolor iste inventore
+                    porro aspernatur cumque quisquam?
+                  </p>
+                  <img
+                    class="signature pt-3"
+                    src="/coffee/images/signature.png"
+                    alt="signature"
+                  />
+                </div>
+              </div>
             </div>
-            </blockquote>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="row justify-content-center">
-            <div class="col-10 col-lg-8 text-center">
-             <img class="img-fluid small-img" src="/coffee/images/small-coffee-2.jpg" alt="">
-              </p>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-6 p-0">
+                <img
+                  class="fist-img ml-5"
+                  src="/coffee/images/pancakes.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-6 p-0">
+                <img
+                  class="fist-img"
+                  src="/coffee/images/makingcoffee2.jpg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- second content -->
-      <div class="row">
-        <div class="col-md-4">
-          <img src="/coffee/images/cafe-inside-2.jpg" class="img-fluid small-img ml-5" alt="">
+    </section>
+    <!-- About coffee -->
+    <section id="about">
+      <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-8">
+            <h2>
+              Learn more about coffee producers, how we roast and brew coffee,
+              and our story.
+            </h2>
+            <button class="btn btn-outline-light mt-3">See our story</button>
+          </div>
         </div>
-        <div class="col-md-8"></div>
       </div>
     </section>
+
+    <!-- quote -->
+    <section id="quote" class="container-fluid px-0">
+      <!-- quote -->
+      <div class="align-items-center content">
+        <div class="justify-content-center">
+          <blockquote class="text-center">
+            <p>
+              "All you need is love but little
+              <span class="highlightQuote">coffee</span> doesn't hurt.<br />
+              I'm sure you will love ours"
+            </p>
+            <hr />
+            <p class="cite">Essop Dicapuchino</p>
+            <div class="small-box"></div>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
     <!-- JAVASCRIPT -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
