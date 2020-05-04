@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ONLY COFFEE</title>
     <!-- Google font -->
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:700"
       rel="stylesheet"
     />
     <!-- Font-Awesome -->
@@ -25,8 +33,8 @@
     <link rel="stylesheet" href="/coffee/style.css" />
   </head>
   <body>
-    <div id="header">
-      <!-- Navbar -->
+    <!-- Header -->
+    <section id="header">
       <nav
         id="mainNavbar"
         class="navbar navbar-expand-md navbar-light bg-light py-0 fixed-top"
@@ -46,15 +54,18 @@
               <a href="#" class="nav-link">HOME</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="nav-link">ABOUT</a>
+              <a href="#about" class="nav-link">ABOUT</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="nav-link">TICKETS</a>
+              <a href="#menu" class="nav-link">MENU</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#gallery" class="nav-link">GALLERY</a>
             </li>
           </ul>
         </div>
       </nav>
-    </div>
+    </section>
     <!-- mission -->
     <section id="mission">
       <div class="container-fluid">
@@ -182,7 +193,7 @@
         </div>
         <!-- Menu List section -->
         <div class="container">
-          <div class="row">
+          <div class="row menu-list-section">
             <!-- Breakfast Menu List(1) -->
             <div class="col-md-6">
               <ul id="menu1" class="menu menu1">
@@ -832,25 +843,40 @@
         </div>
       </div>
     </section>
-
     <!-- quote -->
     <section id="quote" class="container-fluid px-0">
       <!-- quote -->
       <div class="align-items-center content">
         <div class="justify-content-center">
           <blockquote class="text-center">
-            <p>
+            <h2>
               "All you need is love but little
               <span class="highlightQuote">desserts</span> doesn't hurt.<br />
               I'm sure you will love ours"
-            </p>
+            </h2>
             <hr />
             <p class="cite">Essop Dicapuchino</p>
           </blockquote>
         </div>
       </div>
     </section>
-
+    <!-- gallery -->
+    <section id="gallery">
+      <div class="container">
+        <h2 class="text-center">
+          GALLERY
+          <hr />
+        </h2>
+        <div class="gallery">
+          <img id="img1" src="/coffee/images/Gallery/cafe-inside.jpg" alt="" />
+          <img id="img2" src="/coffee/images/Gallery/pancakes.jpg" alt="" />
+          <img id="img3" src="/coffee/images/Gallery/brista.jpg" alt="" />
+          <img id="img4" src="/coffee/images/Gallery/makiyato.jpg" alt="" />
+          <img id="img5" src="/coffee/images/Gallery/lamp.jpg" alt="" />
+          <img id="img6" src="/coffee/images/Gallery/bakery-sign.jpg" alt="" />
+        </div>
+      </div>
+    </section>
     <!-- JAVASCRIPT -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
